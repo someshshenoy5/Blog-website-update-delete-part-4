@@ -21,6 +21,7 @@ const AddBlog = () => {
       console.log(response.data); 
       alert("Blog added successfully");
       window.location.reload();
+      window.location.href = '/'
 
     } catch (error) {
       console.error(error); 
